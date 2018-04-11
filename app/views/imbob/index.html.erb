@@ -1,0 +1,10 @@
+<%= @lotto %>
+<%= @text %>
+<h1>신이 나를 만들때</h1>
+<% @num.each do |x| %>
+    <%= image_tag(x, size: "300") %>
+    <%= @content[x] %>
+<% end %>
+<br>
+
+
